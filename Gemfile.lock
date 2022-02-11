@@ -83,7 +83,8 @@ GEM
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     pg (0.21.0)
-    puma (3.12.6)
+    puma (4.3.11)
+      nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -194,7 +195,7 @@ DEPENDENCIES
   font-awesome-rails (~> 4.7)
   jquery-rails (~> 4.3)
   pg (~> 0.18)
-  puma (~> 3.12)
+  puma (~> 4.3)
   rails (~> 5.1.4)
   rails_real_favicon
   redis (~> 3.0)
